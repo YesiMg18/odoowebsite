@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Container className="heroSection">
+      <Container fluid id="home" className="heroSection">
       <Row>
         <Col className="heroTextContainer">
         <div className="heroText">
@@ -82,7 +82,7 @@ function App() {
         </Col>
       </Row>
       </Container>
-      <Container className="toolSection">
+      <Container id="products"  className="toolSection">
         <Row>
           <Col className="projectContainer"> 
             <div className="projectCard">

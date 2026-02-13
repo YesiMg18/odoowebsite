@@ -12,7 +12,7 @@ import buyIcon from "../assets/buy-icon.svg";
 
 function NavbarLanding() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="navbar" variant="dark"  >
+    <Navbar collapseOnSelect expand="lg" className="navbar" variant="dark" fixed="top"  >
       <Container >
         <Navbar.Brand href="#home"><img src={logoImage} width="120" height="24" alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -20,8 +20,8 @@ function NavbarLanding() {
           <Nav className="me-auto" >
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#products">Products</Nav.Link>
-            <Nav.Link href="#app">App</Nav.Link>
-            <Nav.Link href="#docs">Docs</Nav.Link>
+            <Nav.Link href="#awards">Awards</Nav.Link>
+            <Nav.Link href="#faqs">Faqs</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#signin">Sign In</Nav.Link>
