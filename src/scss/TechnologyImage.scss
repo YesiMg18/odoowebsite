@@ -1,0 +1,146 @@
+@import '~bootstrap/scss/bootstrap';
+
+.cardsSection{
+    display: flex;
+    flex-direction: row;
+
+    .columnOneSection{
+        margin: 24px;
+        .cardOneContainer{
+            background-color: $white;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.124);
+            border: 1px solid $gray-200;
+            margin-bottom: 32px;
+            img{
+                width: 198px;
+                border-radius: 10px  10px 0 0;
+            }
+            .cardOneText{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 8px;
+    
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-top: 14px;  
+                    img{
+                        margin-right: 8px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+        .cardTwoContainer{
+            background-color: $white;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.124);
+            border: 1px solid $gray-200;
+            margin-bottom: 32px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 8px;
+            img{
+                margin-right: 12px;
+            }
+            div{
+                margin-top: 8px;
+                h4{
+                    font-size: 14px;
+                }
+                p{
+                    font-size: 12px;
+                    color: $gray-500;
+                }
+            }
+        }
+    }
+    
+    .columnTwoSection{
+      
+        .cardThreeContainer{        
+            background-color: $white;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.124);
+            border: 1px solid $gray-200;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 12px;
+    
+            img{
+                width: 120px;
+                margin-bottom: 24px;
+                
+            }
+            div{
+                img{
+                    width: 24px;
+                }
+            }
+            .textThreeCard{
+                text-align: center;
+                h4{
+                    font-size: 16px
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+        .cardFourContainer{
+            background-color: $white;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.124);
+            border: 1px solid $gray-200;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h4{
+                font-size: 16px;
+                margin-bottom: 24px;
+            }
+            img{
+                width: 32px;
+                margin-bottom: 16px;
+            }
+            .imagesPersons{
+                img{
+                    width: 40px;
+                    border-radius: 40px;
+                    margin: -4px;
+                    margin-bottom: 8px;
+                }
+            }
+            .icons{
+                img{
+                    width: 24px;
+                    margin: 12px;
+                }
+            }
+
+        }
+    
+    }
+
+}
+

@@ -1,0 +1,334 @@
+@import '~bootstrap/scss/bootstrap';
+
+.heroSection{
+    background-color: $blue-400;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    .heroTextContainer{
+        display: flex;
+        align-items: center;
+        .heroText{
+            color: $white;
+            margin: 24px;
+                .heroLogos{
+                    display: flex;
+                    flex-direction: row;
+                    margin: 24px 0;
+                    img{
+                        width: 60px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+    }
+    
+    .heroCardSection{
+        background-color: $white;
+        padding: 40px;
+        width: 400px;
+        border-radius: 5px 5px 60px 5px;
+        .manageTitle{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            h4{
+                font-size: 16px; 
+            }
+        }
+        .cardContainer{
+            img{
+                margin-top: 30px;
+                width: 300px;
+            }
+            .cardItems{
+                margin: 12px 0;
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    h4{
+                        font-size: 16px;
+                        color: $black;
+                    }
+                    }
+                    p{
+                        font-size: 12px;
+                        color: $gray-500;
+                    }
+            }
+        }
+    }
+}
+
+.toolSection{
+    height: 500px;
+    margin: 60px;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+
+    .projectContainer{
+        position: relative;
+        display: inline-block;
+    }
+    .cardContainer{
+        background-color:$white;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.124);
+        border: 2px solid $gray-200;
+        width: 400px;
+        h4{
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+        .itemContainer{
+            margin-bottom: 20px;
+        }  
+        .itemData{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;  
+            p{
+                font-size: 14px;
+            }    
+            div{
+                display: flex;
+                flex-direction: row;
+                p{
+                    color: $gray-500;
+                }
+               img{
+                margin-left: 4px;
+                width: 16px;
+                color: $gray-300;
+               }
+            }
+           
+        } 
+        .progressBarContainer{
+                width: 100%;
+                background-color: $gray-300;
+                height: 4px;
+                border-radius: 5px;
+                .progressBarOne{
+                    width: 40%;
+                    height: 4px;
+                    background-color: $orange-400;
+                    border-radius: 5px;
+                    
+                }
+                .progressBarTwo{
+                    width: 60%;
+                    height: 4px;
+                    background-color: $orange-400;
+                    border-radius: 5px;
+                    
+                }
+                .progressBarThree{
+                    width: 80%;
+                    height: 4px;
+                    background-color: $orange-400;
+                    border-radius: 5px;
+                    
+                }
+            }
+    }
+    .projectImage{
+        position: absolute;
+               top: 20%;
+               left: 60%;
+               transform: translate(-50%, -50%);
+        .image{
+            position: relative;
+            display: inline-block;
+            img{
+                width: 300px;
+                border-radius: 10px;
+            }
+            .imageButton{
+               width: 100px;
+               position: absolute;
+               top: 16%;
+               left: 80%;
+               transform: translate(-50%, -50%);
+            }
+        }
+    }
+    .toolTextContainer{
+        padding: 40px;
+        b{
+            background-color:$yellow-300 ;
+            padding: 8px;
+            border-radius: 10px;
+            color: $white;
+        }
+        h3{
+            font-size: 32px;
+            margin-top: 24px;
+        }
+        p{
+            margin-top: 24px;
+        }
+        
+
+    }
+   
+}
+
+.featuresSection{
+    height: 500px;
+    margin: 60px;
+
+    display: flex;
+    justify-content: center;
+    .featuresText{
+        padding: 40px;
+        b{
+            background-color:$teal-400 ;
+            padding: 8px;
+            border-radius: 10px;
+            color: $white;
+        }
+        h3{
+            font-size: 32px;
+            margin-top: 24px;
+        }
+        p{
+            margin-top: 24px;
+        }
+    }
+    .featuresCheck{
+        display: flex;
+        flex-direction: row;
+        color: $teal-400 ;
+        img{
+            margin: 0 8px;
+        }
+    }
+    .imageFeaturesContainer{
+        margin: 24px;
+
+        .imageFeatures{
+            position: relative;
+            display: inline-block;
+            img{
+                width: 450px;
+                border-radius: 10px;
+            }
+        }
+        .imageButton{
+            width: 100px;
+            position: absolute;
+            top: 10%;
+            left: 16%;
+            transform: translate(-50%, -50%);
+         }
+    }
+}
+
+.technologySection{
+    .technologyTextContainer{
+        padding: 60px;
+        b{
+            background-color:$blue-400 ;
+            padding: 8px;
+            border-radius: 10px;
+            color: $white;
+        }
+        h3{
+            font-size: 32px;
+            margin-top: 24px;
+        }
+        p{
+            margin-top: 24px;
+        }
+    }
+
+}
+
+.installSection{
+    .installTextContainer{
+        padding: 60px;
+        b{
+            background-color:$yellow-300  ;
+            padding: 8px;
+            border-radius: 10px;
+            color: $white;
+        }
+        h3{
+            font-size: 32px;
+            margin-top: 24px;
+        }
+        p{
+            margin-top: 24px;
+        }
+        .installDownload{
+            button{
+                background-color: transparent;
+                border: none;
+                img{
+                    width: 150px;
+                }
+            }
+        }
+    }
+    .imageInstallContainer{
+        margin: 24px;
+
+        .imageInstall{
+            position: relative;
+            display: inline-block;
+            img{
+                width: 450px;
+                border-radius: 10px;
+            }
+        }
+        .imageButton{
+            width: 100px;
+            position: absolute;
+            top: 10%;
+            left: 16%;
+            transform: translate(-50%, -50%);
+         }
+    }
+}
+
+.bannerSection{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    .bannerContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1000px;
+        height: 200px;
+        background-color:$blue-900 ;
+        color: $white;
+        padding: 24px;
+        border-radius: 0 40px 0 40px ;
+        .bannerText{
+            padding: 24px;
+
+            h4{
+                font-size: 18px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .bannerButton{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img{
+                margin-left: 4px;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,11 @@
+@import '~bootstrap/scss/bootstrap';
+
+.navbar{
+    background-color:  $blue-400;
+}
+
+.navbarButton{
+    img{
+        margin-right:8px;
+    }
+}
