@@ -1,11 +1,15 @@
 import React from "react";
 import "./scss/App.scss"
-import Navbar from "./components/Navbar";
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+
+//Components
 import TechImage from "./components/TechnologyImage";
+import Awards from "./components/Awards";
+import Navbar from "./components/Navbar";
 
 
 //Images
@@ -225,6 +229,7 @@ function App() {
           </Col>
         </Row>
       </Container>
+      <Awards/>
     </div>
   );
 }
