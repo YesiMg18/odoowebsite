@@ -1,0 +1,59 @@
+@import '~bootstrap/scss/bootstrap';
+
+.faqsSection{
+
+    .faqsTitle{
+        text-align: center;
+        margin: 0 24px;
+        h2{
+            font-size: 24px;
+        }
+        p{
+            color: $gray-500;
+        }
+    }
+    .cardsContainer{
+        padding: 40px;
+        .cardItem{
+            display: flex;
+            flex-direction: row;
+            background-color: $white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.124);
+            border: 1px solid $gray-200;
+            justify-content: space-between;
+            margin: 12px 60px;
+
+            .cardItemText{
+                display: flex;
+                flex-direction: row;
+                padding: 16px;
+                img{
+                    width: 18px;
+                    margin: 0 8px;
+                }
+                p{
+                    margin: 0;
+                }
+            }
+            button{
+                    background-color: transparent;
+                    border: none;
+                    img{
+                        width: 16px;
+                        margin: 0 8px;
+                    }
+                }
+
+        }
+    }
+    .faqsActions{
+        text-align: center;
+        margin: 0 24px;
+    }
+    div{
+        Button{
+            margin: 8px;
+        }
+    }
+}

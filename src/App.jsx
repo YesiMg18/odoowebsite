@@ -10,6 +10,7 @@ import Button from 'react-bootstrap/Button';
 import TechImage from "./components/TechnologyImage";
 import Awards from "./components/Awards";
 import Navbar from "./components/Navbar";
+import Faqs from "./components/Faqs";
 
 
 //Images
@@ -230,6 +231,7 @@ function App() {
         </Row>
       </Container>
       <Awards/>
+      <Faqs/>
     </div>
   );
 }
