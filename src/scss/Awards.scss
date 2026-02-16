@@ -1,104 +1,105 @@
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
-.awardsSection{
-    background-color: $gray-100;
+.awardsSection {
+  background-color: $gray-100;
+  padding: 40px;
+  margin: 60px 0;
+
+  .awardsText {
     padding: 40px;
-    margin: 60px 0;
+    margin: 0 90px;
+    b {
+      background-color: $blue-400;
+      padding: 8px;
+      border-radius: 10px;
+      color: $white;
+    }
+    p {
+      margin-top: 24px;
+    }
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
+    .cardOneContainer {
+      background-color: $white;
+      width: 200px;
+      height: 250px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.124);
+      border: 1px solid $gray-200;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 12px;
+      margin-right: 24px;
+      cursor: pointer;
 
-    .awardsText{
-        padding: 40px;
-        margin: 0 90px;
-        b{
-            background-color:$blue-400 ;
-            padding: 8px;
-            border-radius: 10px;
-            color: $white;     
+      img {
+        width: 100px;
+        margin-bottom: 24px;
+      }
+      div {
+        img {
+          width: 24px;
         }
-        p{
-             margin-top: 24px;
+      }
+      .textThreeCard {
+        text-align: center;
+        h4 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      &:hover {
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+      }
+    }
+    .cardTwoContainer {
+      background-color: $white;
+      width: 200px;
+      height: 250px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.124);
+      border: 1px solid $gray-200;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 24px;
+      cursor: pointer;
+      img {
+        width: 100px;
+        margin-bottom: 24px;
+      }
+      .textCard {
+        p {
+          font-size: 12px;
+          text-align: center;
+        }
+        Button {
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+        }
+      }
+      &:hover {
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px){
+    .awardsSection{
+        .awardsText{
+            margin: 0 24px;
         }
     }
-    .cardsContainer{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
-
-        .cardOneContainer{
-            background-color: $white;
-            width: 200px;
-            height: 250px;
-            border-radius: 10px;
-            box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.124);
-            border: 1px solid $gray-200;
-            padding: 24px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 12px;
-            margin-right: 24px;
-            cursor: pointer;
-    
-            img{
-                width: 100px;
-                margin-bottom: 24px;
-                
-            }
-            div{
-                img{
-                    width: 24px;
-                }
-            }
-            .textThreeCard{
-                text-align: center;
-                h4{
-                    font-size: 16px
-                }
-                p{
-                    font-size: 12px;
-                }
-            }
-            &:hover{
-                box-shadow: 0 20px 40px rgba(0,0,0,.12);
-            }
-        }
-        .cardTwoContainer{
-            background-color: $white;
-            width: 200px;
-            height: 250px;
-            border-radius: 10px;
-            box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.124);
-            border: 1px solid $gray-200;
-            padding: 24px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-right: 24px;
-            cursor: pointer;
-            img{
-                width: 100px;
-                margin-bottom: 24px;
-            }
-            .textCard{
-                
-                p{
-                    font-size: 12px;
-                    text-align: center;
-                }
-                Button{
-                    font-size: 12px;
-                    display: flex;
-                    align-items: center;
-                }
-            }
-            &:hover{
-                box-shadow: 0 20px 40px rgba(0,0,0,.12);
-            }
-
-        }
-    }
-
 }
